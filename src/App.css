@@ -8,13 +8,14 @@
     justify-content: center;
     align-items: center;
     gap: 2rem; 
-    background-color: #85929E ;
     border: 2px solid black;
     border-radius: 15px;
     position: sticky;
     top: 0;
     color: #c03617;
     transition: transform 0.5s;
+
+    background-color: #045979;
 }
 
 .container__form:hover {
@@ -72,7 +73,7 @@
 .brand__car {
     font-size: 2rem;
     color: rgb(11, 22, 58);
-    background-color: #0489B8;
+    background-color: #045979;
 }
 
 .App {
@@ -86,7 +87,7 @@
     height: 30px;
     margin: auto;
     border-radius: 15px;
-    background-color: #0489B8;
+    background-color: #045979;
     box-shadow: 5px 5px 5px #045979;
     cursor: pointer;
     transition: transform 0.5s;
@@ -105,7 +106,7 @@
     width: 80%;
     height: 30px;
     border-radius: 15px;
-    background-color: #0489B8;
+    background-color: #023142;
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     letter-spacing: 0.3rem;
@@ -126,14 +127,12 @@ input {
     height: 30px;
 }
 
-.img__form {
+/* .img__form {
     background-image: url(./assets/car-logo.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    opacity: ;
-
     
-}
+} */
 
 .list__car {
     font-size: 1.5rem;
