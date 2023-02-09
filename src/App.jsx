@@ -10,7 +10,7 @@ function App() {
   const [updateInfo, setUpdateInfo] = useState()
 
   const getAllCars = () => {
-    const url = 'http://cars-crud.academlo.tech/cars/'
+    const url = 'https://cars-crud.academlo.tech/cars/'
 
     axios.get(url)
     .then(res => setCars(res.data))
@@ -22,7 +22,7 @@ function App() {
   }, [])
 
   const createNewCars = data =>{
-    const url = `http://cars-crud.academlo.tech/cars/`
+    const url = `https://cars-crud.academlo.tech/cars/`
 
     axios.post(url, data)
     .then(res => {
@@ -34,7 +34,7 @@ function App() {
   console.log(cars);
   
   const deleteCarById = id => {
-    const url = `http://cars-crud.academlo.tech/cars/${id}/`
+    const url = `https://cars-crud.academlo.tech/cars/${id}/`
 
     axios.delete(url)
     .then(res => {
@@ -45,7 +45,7 @@ function App() {
   }
 
   const updateCarById = (id, data) =>{
-    const url = `http://cars-crud.academlo.tech/cars/${id}/`
+    const url = `https://cars-crud.academlo.tech/cars/${id}/`
     axios.put(url, data)
     .then(res => { 
      console.log(res.data) 
