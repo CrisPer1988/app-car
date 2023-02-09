@@ -1,0 +1,140 @@
+.container__form {
+    margin-left: 16px;
+    width: 30%;
+    min-width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; 
+    background-color: #85929E ;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: sticky;
+    top: 0;
+    color: #c03617;
+    transition: transform 0.5s;
+}
+
+.container__form:hover {
+    transform: scale(1.01);
+    box-shadow: 10px 5px 5px #525252;
+}
+
+
+
+.input__name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #000000;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+   
+}
+
+.form__input {
+    background-color: black;
+    color: white;
+    
+}
+
+.card__container {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 70%;
+    display: grid;
+    text-align: center;
+    gap: 1rem;
+    
+    min-width: 250px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+}
+
+.container__card {
+    display: grid; 
+    gap: 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(./assets/fondo-card-3.jpg);
+    transition: box-shadow 0.5s;
+}
+
+.container__card:hover {
+    box-shadow: 10px 5px 5px #525252;
+    
+}
+
+.brand__car {
+    font-size: 2rem;
+    color: rgb(11, 22, 58);
+    background-color: #0489B8;
+}
+
+.App {
+    display: flex;
+    margin: auto;
+    
+}
+
+.btn__seccion {
+    width: 70%;
+    height: 30px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #0489B8;
+    box-shadow: 5px 5px 5px #045979;
+    cursor: pointer;
+    transition: transform 0.5s;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.btn__seccion:hover {
+    transform: scale(1.02);
+    background-color: rgb(10, 192, 34);
+    color: beige;
+}
+
+.btn__create {
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #0489B8;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.btn__create:hover {
+    transform: scale(1.02);
+    background-color: rgb(10, 192, 34);
+    
+}
+
+
+
+input {
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
+}
+
+.img__form {
+    background-image: url(./assets/car-logo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: ;
+
+    
+}
+
+.list__car {
+    font-size: 1.5rem;
+}
